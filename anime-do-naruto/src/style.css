@@ -1,0 +1,79 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a44d0206-0e67-40ce-9420-e9b21ed021fa/dazp6if-ecbbf55a-59c4-46e0-8a3f-703205a78aec.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E0NGQwMjA2LTBlNjctNDBjZS05NDIwLWU5YjIxZWQwMjFmYVwvZGF6cDZpZi1lY2JiZjU1YS01OWM0LTQ2ZTAtOGEzZi03MDMyMDVhNzhhZWMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.deS87fjWRkUzdMcECxOATClTWOFclpPX4imyXtxlkZs");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+.primary-color {
+  color: #ffd700;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+button {
+  margin-top: 12px;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff0000;
+  border: none;
+  padding: 13px 32px;
+  text-decoration: none;
+  transition: 400ms;
+}
+
+button:hover {
+  background-color: #800000;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  font-size: 17px;
+}
+
+img {
+  max-height: 250px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+img:hover {
+  transform: scale(1.4);
+  overflow: hidden;
+}
